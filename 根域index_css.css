@@ -1,0 +1,58 @@
+body {
+    animation-name: body-background-color;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.beijing {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    height: 50%;
+    padding: 5px 5px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+@keyframes body-background-color {
+    0% {background-color:  rgb(255, 215, 215);}
+    50% {background-color: rgb(70, 150, 255);}
+    100% {background-color:  rgb(255, 215, 215);}
+}
+
+p {
+    font-size: large;
+    color: gray;
+}
+
+h1 {
+    color: hotpink;
+    text-align: center;
+}
+
+a {
+    background-color: lightblue;
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+}
+
+a:hover {
+    background-color: lightpink;
+}
+
+.link {
+    background-color:  rgba(255, 215, 215, 0.5);
+    display: inline-block;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+}
+
+em {
+    color: gray;
+    text-align: center;
+}
